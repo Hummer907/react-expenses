@@ -394,12 +394,15 @@ select {
   gap: var(--space-sm);
   max-width: var(--content-sm);
 }
+.intro p{
+    font-size: 1rem;
+}
 
 .intro form {
   display: -ms-grid;
   display: grid;
   gap: var(--space-sm);
-  max-width: 25ch;
+  max-width: 15ch;
 }
 
 /* dashboard */
